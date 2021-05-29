@@ -1,40 +1,176 @@
 <!doctype html>
 <html>
 <meta charset="utf-8">
-<meta viewpoint>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> My Website </title>
-<style type="text/css">
+<style>
 * {
-	box-sizing: border-box;
-	text-align: center;
+		box-sizing: border-box;
+		margin: 0;
+		float: 0;
 }
-p {
-	background-color: lightblue;
-	padding: 20px;
-	border: 5px solid black;
+section {
+	top: 100px;
+	margin-left: 5px;
+}
+body1 {
+}
+h1 {
+}
+body2 {
+background-color: lightgray;
+	margin: 10px 0px 10px 10px;
+	top: 100px;
+	padding: 50px 5px 5px 5px;
+	position: absolute;
+	border:3px solid black;
+	width: 32%;
+}
+h1.chicken {
+	font-size: 28px;
+	position: absolute;
+	border: 3px solid black;
+	background-color: pink;
+	margin: 0px 0px 0px 0px;
+	right: -3px;
+	top: -3px;
+}
+h1.heading {
+	text-align: center;
+margin-top: 56px;
+}
+body3 {
+	background-color: lightgray;
+		margin: 10px 0px 10px 0px;
+		top: 100px;
+		padding: 50px 5px 5px 5px;
+		position: absolute;
+		border:3px solid black;
+		width: 32%;
+		left: 34%;
 
 }
-img {
-	border: 5px solid black;
-	float: left;
+h1.Beef {
+	font-size: 28px;
+	position: absolute;
+	border: 3px solid black;
+	background-color: red;
+	padding-right: 5px;
+	right: -3px;
+	top: -3px;
 }
-span {
-	float: left;
-	width: 300px;
-	font-size:24px;
-	background-color: blue;
-	opacity:0.5;
-	border: 5px;
-	padding: 5px;
+body4 {
+	position: absolute;
+	background-color: lightgray;
+		border:3px solid black;
+		padding: 50px 5px 5px 5px;
+		margin: 27px 0px 10px 0px;
+		padding-bottom: 22px;
+		width: 32%;
+		left: 67%;
+}
+h1.Sushi {
+		font-size: 28px;
+		position: absolute;
+		border: 3px solid black;
+		background-color: #fdff72;
+		padding-right: 5px;
+		right: -3px;
+		top: -3px;
+}
+p1 {
+
+}
+@media (min-width:768px) and (max-width: 991px){
+body2 {
+background-color: lightgray;
+	margin: 10px 0px 10px 10px;
+	top: 100px;
+	padding: 50px 5px 5px 5px;
+	position: absolute;
+	border:3px solid black;
+	width: 48%;
+}
+body3 {
+	background-color: lightgray;
+		margin: 10px 20px 10px 0px;
+		top: 100px;
+		padding: 50px 5px 5px 5px;
+		position: absolute;
+		border:3px solid black;
+		width: 48%;
+		left: 51%;
+}
+body4 {
+	position: absolute;
+	background-color: lightgray;
+		border:3px solid black;
+		padding: 50px 5px 5px 5px;
+		margin: 27px 0px 10px 0px;
+		padding-bottom: 22px;
+		width: 48%;
+		top: 220px;
+		left: 15px;
+}
+}
+@media  (min-width:0px) and (max-width: 767px) {
+	body2 {
+	background-color: lightgray;
+		margin: 10px 0px 10px 10px;
+		top: 100px;
+		padding: 50px 5px 5px 5px;
+		border:3px solid black;
+		width: 90%;
+	}
+	body3 {
+		background-color: lightgray;
+			margin: 10px 20px 10px 10px;
+			padding: 50px 5px 5px 5px;
+			position: absolute;
+			border:3px solid black;
+			width: 90%;
+			top: 250px;
+			left: 5px;
+			overflow: scroll;
+	}
+	body4 {
+		position: absolute;
+		background-color: lightgray;
+			border:3px solid black;
+			padding: 50px 5px 5px 5px;
+			margin: 27px 0px 10px 0px;
+			padding-bottom: 22px;
+			width: 90%;
+			top: 400px;
+			left: 15px;
+			overflow: scroll;
+	}
+}
 }
 </style>
+<section >
+		<body1>
+			<h1 class="heading"> Our Menu</h1>
+		</body1>
 
-<body>
+		<body2>
+			<h1 class="chicken">Chicken</h1>
+			<p1> Words are pale shadows of forgotten names. As names have power,
+				words have power. Words can light fires in the minds of men.
+				Words can wring tears from the hardest hearts.</p1>
+			</body2>
 
-<head> Hi Coursera!
-<p> For the Fear I Have Sinned</p>
-</head>
-<span>The Free Dictionary's Idioms dictionary is the largest collection of English idioms and slang in the world. It contains more than 60,000 entries from several of the most trusted names in publishing.
-</span><img src="123.jpg" alt="Pakistani-fan" >
-</body>
+			<body3>
+				<h1 class="Beef">Beef </h1>
+				<p1> When we are children we seldom think of the future.
+					This innocence leaves us free to enjoy ourselves as few adults can.
+					The day we fret about the future is the day we leave our childhood behind.</p1>
+				</body3>
+
+				<body4>
+					<h1 class="Sushi">Sushi </h1>
+					<p1>Call a jack a jack. Call a spade a spade. But always call a whore a lady.
+		 			Their lives are hard enough, and it never hurts to be polite.</p1>
+	 		</body4>
+	</section>
 </html>
