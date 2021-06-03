@@ -231,7 +231,7 @@ p.container {
   max-width:60%;
 }
 .menu-item-photo div {
-  position: relative;
+  position: absolute;
   bottom: 0;
   right: 0;
   width: 60%;
