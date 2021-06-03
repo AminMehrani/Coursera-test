@@ -32,7 +32,6 @@ p.container {
 
 .navbar-brand {
   padding-top: 25px;
-
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
@@ -42,7 +41,6 @@ p.container {
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
-  float: right;
   margin-bottom: 0;
   line-height: .75;
 }
