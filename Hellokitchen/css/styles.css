@@ -114,15 +114,6 @@ body {
   background: #E7E7E7;
 }
 
-#Chicken.container {
-  font-family: 'Lora', serif;
-  text-align: center;
-  font-weight: bold;
-  padding: 15px 0px 15px 0px;
-  background-color: lightgray;
-  color: #000000;
-  margin-bottom: -10px;
-}
 
 #nav-list a span {
   font-size: 1.8em;
@@ -190,8 +181,68 @@ margin-top: 10px;
   margin-top: 25px;
 }
 /* END FOOTER */
+.model {
+  font-size: 1.2em;
+}
+.box {
 
+  text-align: center;
+  margin: 150px;
+}
 
+/* Box Page */
+#boxtext {
+  margin-top:  20px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.button {
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition-duration: 0.6s;
+  color: white;
+  background-color: green;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: black;
+}
+
+.text-right{
+margin-left: 40%;
+}
+
+.calculator {
+  position: fixed;
+  width: 35%;
+  top: 0px;
+  left: 20px;
+  float: left;
+  height: 70%;
+}
+
+#innerbox {
+  border: 5px black;
+}
+
+.yourbox {
+  padding: 10px;
+  height: 550px;
+  border-style: solid;
+   border-width: 1px;
+   border-height:
+}
+
+.price {
+  border-radius: 15px;
+  color: lightblue;
+  background-color: darkgreen;
+}
+
+/* Box Page End */
 
 /* HOME PAGE */
 .container .jumbotron {
