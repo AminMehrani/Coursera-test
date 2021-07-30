@@ -187,12 +187,12 @@ margin-top: 10px;
 .box {
 
   text-align: center;
-  margin: 150px;
+  margin: 15px;
 }
 
 /* Box Page */
 #boxtext {
-  margin-top:  20px;
+  margin: 20px;
   margin-bottom: 15px;
   padding: 20px;
 }
@@ -212,28 +212,62 @@ margin-top: 10px;
 }
 
 .text-right{
-margin-left: 40%;
+  width: 40%;
+margin-left: 37%;
+margin-top: 20px;
+
 }
+
 
 .calculator {
   position: fixed;
   width: 35%;
   top: 0px;
+  left: 10px;
+  float: left;
+  height: 95%;
+}
+
+.pricecalculator {
+  position: fixed;
+  width: 35%;
+  top: 680px;
   left: 20px;
   float: left;
-  height: 70%;
+  height: 22%;
+}
+
+.model {
+  margin-bottom: : 10px;
+  margin-top: 10px;
+}
+
+
+.pr {
+}
+
+#pricecalc {
+  border: 2px solid black;
+  width: 99%;
+  height: 95%;
+
+}
+
+#boxshoma {
+  font-size: 2em;
 }
 
 #innerbox {
   border: 5px black;
+  height: 100%;
 }
 
 .yourbox {
+  height: 70%;
   padding: 10px;
-  height: 80%auto;
   border-style: solid;
-   border-width: 1px;
-   border-height:
+  border-width: 1px;
+
 }
 
 .price {
@@ -243,6 +277,135 @@ margin-left: 40%;
 }
 
 /* Box Page End */
+
+
+/* Menu PAGE */
+.main-content {
+  top: 15%;
+  left: 10%;
+  position: absolute;
+width: 80%;
+height: 74%;
+
+}
+
+.pic {
+  margin-left: 2.4px;
+  float: left;
+  background-color: white;
+  text-align:left;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+.opac {
+  opacity: 0.5;
+}
+ .pic2 {
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 398px;
+  height: 398px;
+  margin-left: ;
+}
+
+
+#textmenu1 {
+  position: absolute;
+  left: 16%;
+  top: 45%;
+  font-size: 1.2em;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+#textmenu2 {
+  position: absolute;
+  left: 30%;
+  top: 45%;
+  font-size: 1.5em;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+#textmenu3 {
+  position: absolute;
+  left: 35%;
+  top: 45%;
+  font-size: 1.5em;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+#textmenu4 {
+  position: absolute;
+  left: 20%;
+  top: 45%;
+  font-size: 1.5em;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+#textmenu5 {
+  position: absolute;
+  left: 15%;
+  top: 45%;
+  font-size: 1.5em;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+#textmenu6 {
+  position: absolute;
+  left: 33%;
+  top: 45%;
+  font-size: 1.5em;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+#pic2 {
+
+}
+
+#main-content-list {
+  display: flex;
+  background-color: #3c204c;
+  border: 0px;
+
+}
+
+.container .tako {
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+
+  margin-top: 0px;
+border-radius: 10px;
+}
+
+.innertako {
+  display: flex;
+}
+
+.innertako p {
+  font-size: 0.9em;
+  margin-left:10px;
+  width: 40%;
+}
+.takopic {
+  border-radius: 10px;
+}
+
+.fee {
+  font-size: 1.5em;
+  color: green;
+  background-color: solid black;
+  border-radius: 5px;
+
+}
+
+/*End Menu page */
+
+
+
+
 
 /* HOME PAGE */
 .container .jumbotron {
@@ -366,7 +529,7 @@ h3.menu-item-title {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .container .jumbotron {
+ .container .jumbotron {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
     height: 675px;
   }
@@ -394,6 +557,7 @@ h3.menu-item-title {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
+
   .container .jumbotron {
     background: url('../images/jumbotron_768.jpg') no-repeat;
     height: 432px;
@@ -404,6 +568,7 @@ h3.menu-item-title {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
+
   .navbar-brand {
     padding-top: 10px;
     height: 80px;

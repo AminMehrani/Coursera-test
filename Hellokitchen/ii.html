@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Page</title>
+    <title>باکس‌ها</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,8 @@
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
+    <script src="js/mainjava.js">
+    </script>
       <link rel="stylesheet" href="floating-wpp.min.css">
     <!--JQuery-->
     <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
@@ -25,15 +26,9 @@
   </head>
 
 <body>
-
-<div>
-</div>
-
-
-
   <div id="boxtext" class="calculator container">
     <div id="innerbox" class="container">
-      <div> باکس شما </div>
+      <div id="boxshoma"> باکس شما </div>
       <br>
       <div class="yourbox">
   <p>
@@ -43,110 +38,148 @@
   </div>
 </div>
 
+<div class="container pricecalculator navbar-expand{-sm|-md|-lg|-xl|-xxl}" hidden>
+<div>مبلغ قابل پرداخت</div>
+<div id="pricecalc">
+  <p2 id="pr">
+
+
+  </p2>
+<br>
+  تومان
+</div>
+</div>
+
 
   <div class="text-right">
-<div id="boxtext" class="container">
+<div id="boxtext" class="container navbar-expand{-sm|-md|-lg|-xl|-xxl}">
 
     <script>
     $(document).ready(function(){
       $("#btn1").click(function(){
-        $("p").append(" <li>دستپیچ بلونز و قارچ</li>");
+        $("p").append("<li> دستپیچ بلونز و قارچ ۱۴/۰۰۰</li>");
+          $("p2").append("14/000+");
       });
 
       $("#btn2").click(function(){
-        $("p").append("<li>دستپیچ مرغ باربیکیو</li>");
+        $("p").append("<li>دستپیچ مرغ باربیکیو ۱۳/۰۰۰</li>");
+          $("p2").append("13/000+");
       });
 
 
       $("#btn3").click(function(){
-        $("p").append("<li>دستپیچ پنیر و گردو</li>");
+        $("p").append("<li>دستپیچ پنیر و گردو ۱۱/۰۰۰</li>");
+          $("p2").append("11/000+");
       });
 
       $("#btn4").click(function(){
-        $("p").append("<li>تاکو چیلی کن‌کارنه</li>");
+        $("p").append("<li>تاکو چیلی کن‌کارنه ۲۰/۰۰۰</li>");
+          $("p2").append("20/000+");
       });
 
       $("#btn5").click(function(){
-        $("p").append("<li>تاکو چیکن کریسپی</li>");
+        $("p").append("<li>تاکو چیکن کریسپی ۱۸/۰۰۰</li>");
+          $("p2").append("18/000+");
       });
 
       $("#btn6").click(function(){
-        $("p").append("<li>چیکن تاکو گریل</li>");
+        $("p").append("<li>چیکن تاکو گریل ۱۸/۰۰۰</li>");
+          $("p2").append("18/000+");
       });
 
       $("#btn7").click(function(){
-        $("p").append("<li>پوفی بیکن و پنیر</li>");
+        $("p").append("<li>پوفی بیکن و پنیر ۱۸/۰۰۰</li>");
+          $("p2").append("18/000+");
       });
 
       $("#btn8").click(function(){
-        $("p").append("<li>مینی سمبوسه‌ی هندی</li>");
+        $("p").append("<li>مینی سمبوسه‌ی هندی ۶/۰۰۰</li>");
+          $("p2").append("6/000+");
       });
 
       $("#btn9").click(function(){
-        $("p").append("<li>اگرول ژامبون و پنیر</li>");
+        $("p").append("<li>اگرول ژامبون و پنیر ۱۱/۰۰</li>");
+          $("p2").append("11/000+");
       });
 
       $("#btn10").click(function(){
-        $("p").append("<li>اگرول مرغ و پنیر</li>");
+        $("p").append("<li>اگرول مرغ و پنیر ۱۲/۰۰۰</li>");
+          $("p2").append("12/000+");
       });
 
       $("#btn11").click(function(){
-        $("p").append("<li>اگرول گوشت و پنیر</li>");
+        $("p").append("<li>اگرول گوشت و پنیر ۱۳/۰۰۰</li>");
+          $("p2").append("13/000+");
       });
 
       $("#btn12").click(function(){
-        $("p").append("<li>پیتزاریزه مارگاریتا</li>");
+        $("p").append("<li>پیتزاریزه مارگاریتا ۸/۰۰۰</li>");
+          $("p2").append("8/000+");
       });
 
       $("#btn13").click(function(){
-        $("p").append("<li>پیتزاریزه پپرونی</li>");
+        $("p").append("<li>پیتزاریزه پپرونی ۹/۰۰۰</li>");
+          $("p2").append("9/000+");
       });
 
       $("#btn14").click(function(){
-        $("p").append("<li>پیتزاریزه چیکن اسموکی</li>");
+        $("p").append("<li>پیتزاریزه چیکن اسموکی ۹/۰۰۰</li>");
+          $("p2").append("9/000+");
       });
 
       $("#btn15").click(function(){
-        $("p").append("<li>پیتزاریزه بیکن و قارچ</li>");
+        $("p").append("<li>پیتزاریزه بیکن و قارچ ۹/۰۰۰</li>");
+          $("p2").append("9/000+");
       });
 
       $("#btn16").click(function(){
-        $("p").append("<li>پیتزاریزه رست‌بیف</li>");
+        $("p").append("<li>پیتزاریزه رست‌بیف ۱۴/۰۰۰</li>");
+          $("p2").append("14/000+");
       });
 
       $("#btn17").click(function(){
-        $("p").append("<li>چیکن پاپ‌کورن ۲۵۰ گرمی</li>");
+        $("p").append("<li>چیکن پاپ‌کورن ۲۵۰ گرمی ۶۰/۰۰۰</li>");
+          $("p2").append("60/000+");
       });
 
       $("#btn18").click(function(){
-        $("p").append("<li>چیکن پاپ‌کورن ۵۰۰ گرمی</li>");
+        $("p").append("<li>چیکن پاپ‌کورن ۵۰۰ گرمی ۱۱۰/۰۰۰</li>");
+          $("p2").append("110/000+");
+      });
+
+      $("#btn").click(function(){
+        $("p").append("<li>دستپیچ پنیر و گردو ۱۴/۰۰۰</li>");
+          $("p2").append("14/000+");
+      });
+
+      $("#btn").click(function(){
+        $("p").append("<li>دستپیچ پنیر و گردو ۱۴/۰۰۰</li>");
+          $("p2").append("14/000+");
       });
 
       $("#btn").click(function(){
         $("p").append("<li>دستپیچ پنیر و گردو</li>");
+          $("p2").append("14/000+");
       });
 
       $("#btn").click(function(){
         $("p").append("<li>دستپیچ پنیر و گردو</li>");
+          $("p2").append("14/000+");
       });
 
       $("#btn").click(function(){
         $("p").append("<li>دستپیچ پنیر و گردو</li>");
+          $("p2").append("14/000+");
       });
 
       $("#btn").click(function(){
         $("p").append("<li>دستپیچ پنیر و گردو</li>");
-      });
-
-      $("#btn").click(function(){
-        $("p").append("<li>دستپیچ پنیر و گردو</li>");
-      });
-
-      $("#btn").click(function(){
-        $("p").append("<li>دستپیچ پنیر و گردو</li>");
+          $("p2").append("14/000+");
       });
 
     });
+
+
     </script>
 
 
@@ -155,7 +188,7 @@
 <div class="model">دستپیچ </div>
 <button id="btn1" class="button" type="radio">
   دستپیچ بلونز و قارچ
-<div class="price">هر عدد ۱۴/۰۰۰ تومان</div>
+<div class="price">هر عدد ۱۴/۰۰۰</div>
 </button> <button id="btn2" class="button" class="button" type="button"> دستپیچ مرغ باربیکیو<div class="price">هر عدد ۱۳/۰۰۰ تومان</div></button> <button id="btn3" class="button" type="button">دستپیچ پنیر و گردو<div class="price"> هر عدد ۱۱/۰۰۰ تومان </div></button>
 <div class="model">تاکو </div>
 <button id="btn4" class="button" type="button">تاکو چیلی کن کارنه<div class="price">هر عدد ۲۰/۰۰۰ تومان</div></button> <button id="btn5" class="button" class="button" type="button"> تاکو چیکن کریسپی<div class="price">هر عدد ۱۸/۰۰۰ تومان</div></button> <button id="btn6" class="button" type="button">چیکن تاکو گریل<div class="price">هر عدد ۱۸/۰۰۰ تومان</div></button>
